@@ -138,11 +138,10 @@ router.post('/admin/edit/:userId', async (req, res) => {
     }
 });
 
-router.route('/login')
-.get((req, res) => {
+router.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '..' ,'views', 'login.html'));
 })
-.post(async (req, res) => {
+router.post('/login', async (req, res) => {
     const { username, password } = req.body;
         if ((username == 'Admin') && (password == 'Admin123')) {
             res.status(200).json({ message: 'admin' });
