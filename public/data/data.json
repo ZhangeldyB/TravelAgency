@@ -1,0 +1,67 @@
+{
+    "map": [
+        {
+          "country": "United States",
+          "cities": [
+            {
+              "name": "New York",
+              "hotels": [
+                "Luxury Hotel NY",
+                "Central Plaza Hotel"
+              ],
+              "price": 300
+            },
+            {
+              "name": "Los Angeles",
+              "hotels": [
+                "Sunset Resort LA",
+                "Downtown Suites"
+              ],
+              "price": 230
+            }
+          ]
+        },
+        {
+          "country": "France",
+          "cities": [
+            {
+              "name": "Paris",
+              "hotels": [
+                "Eiffel Tower Suites",
+                "Champs-Élysées Hotel"
+              ],
+              "price": 180
+            },
+            {
+              "name": "Nice",
+              "hotels": [
+                "Azure Beach Resort",
+                "Harbor View Hotel"
+              ],
+              "price": 195
+            }
+          ]
+        },
+        {
+          "country": "Japan",
+          "cities": [
+            {
+              "name": "Tokyo",
+              "hotels": [
+                "Zen Garden Hotel",
+                "Tokyo Bay View"
+              ],
+              "price": 350
+            },
+            {
+              "name": "Kyoto",
+              "hotels": [
+                "Traditional Inn Kyoto",
+                "Bamboo Grove Hotel"
+              ],
+              "price": 380
+            }
+          ]
+        }
+      ]
+}
