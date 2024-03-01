@@ -21,5 +21,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/', travelRoutes);
 
 app.listen(port, () => {
-    console.log(`Server is running on port http://localhost:${port}/login`);
+    console.log(`Server is running on port http://localhost:${port}`);
 });
